@@ -1,0 +1,7 @@
+package com.bank.constants;
+
+public class QueryConstant {
+
+	public static final String SELECT_ALL_PENDING_ACTIVE_ACCOUNTS = "SELECT * FROM ACCOUNTS ACC INNER JOIN "
+			+ "CUSTOMER CUST ON ACC.ACCOUNT_ADHAAR_NUMBER = CUST.CUSTOMER_ADHAAR_NUMBER WHERE ACC.ACCOUNT_STATUS = ?";
+}
