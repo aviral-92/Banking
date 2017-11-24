@@ -14,7 +14,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "ACCOUNTS")
-@SequenceGenerator(name = "ACCOUNT_SEQ", initialValue = 1000)
+@SequenceGenerator(name = "ACCOUNT_SEQ", initialValue = 100)
 public class Accounts {
 
 	@Id
